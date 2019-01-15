@@ -1,3 +1,5 @@
-CREATE TABLE (
-
+CREATE TABLE cities (
+    city_id INTEGER PRIMARY KEY,
+    name TEXT NOT NULL,
+    zip INTEGER NOT NULL UNIQUE,
 );
